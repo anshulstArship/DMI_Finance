@@ -31,7 +31,7 @@ public class DmiFinanceApplication implements CommandLineRunner {
 			"        \"pinCode\": \"400088\",\n" +
 			"        \"addressCategory\": \"02\",\n" +
 			"        \"dateReported\": \"05042024\",\n" +
-			"        \"enrichedThroughtEnquiry\": \"Y\"\n" +
+			"        \"enrichedThroughEnquiry\": \"Y\"\n" +
 			"      }\n" +
 			"    ],\n" +
 			"    \"name\": {\n" +
@@ -43,7 +43,7 @@ public class DmiFinanceApplication implements CommandLineRunner {
 			"      {\n" +
 			"        \"idType\": \"01\",\n" +
 			"        \"idValue\": \"KVTPK1963E\",\n" +
-			"        \"enrichedThroughtEnquiry\": \"Y\"\n" +
+			"        \"enrichedThroughEnquiry\": \"Y\"\n" +
 			"      }\n" +
 			"    ],\n" +
 			"    \"header\": {\n" +
@@ -74,7 +74,7 @@ public class DmiFinanceApplication implements CommandLineRunner {
 
 	public static void main(String[] args) {
 		SpringApplication.run(DmiFinanceApplication.class, args);
-//		ConfigurableApplicationContext context = SpringApplication.run(Main.class, args);
+		ConfigurableApplicationContext context = SpringApplication.run(Main.class, args);
 
 
 
