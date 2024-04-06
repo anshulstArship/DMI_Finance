@@ -1,4 +1,4 @@
 package com.main.dmiFinance.service;
 
-public interface DmiDinanceService {
+public interface DmiFinanceService {
 }
